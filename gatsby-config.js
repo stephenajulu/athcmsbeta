@@ -49,16 +49,7 @@ module.exports = {
                 // over the mode reported from OS, set this to true (default: false)
                 overrideOS: false,
             },
-        },
-        ghostConfig: {
-            "development": {
-                "apiUrl": "https://athcms.herokuapp.com",
-                "contentApiKey": "62a3289c758de8a674efbe8dad",
-            },
-            "production": {
-                "apiUrl": "https://athcms.herokuapp.com",
-                "contentApiKey": "62a3289c758de8a674efbe8dad",
-            },
+        
         },
         {
             resolve: `gatsby-transformer-rehype`,
